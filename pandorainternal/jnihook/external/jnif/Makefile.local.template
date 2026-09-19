@@ -1,0 +1,23 @@
+#
+# Copy this file as Makefile.local
+#
+# Uncomment and modified the lines specific to set up 
+# the appropiate environment.
+#
+
+# Sets JAVA_HOME for the current environment
+ifeq ($(UNAME), Darwin)
+  JAVA_HOME=$(shell /usr/libexec/java_home)
+else ifeq ($(UNAME), Linux)
+  JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+else
+  $(error Unrecognized environment. Only supported Darwin and Linux)
+endif
+
+#JVMARGS+=-Xverify:all
+#JVMARGS+=-Xprof
+#JVMARGS+=-Xdiag
+#JVMARGS+=-Xcheck:jni
+#JVMARGS+=-verbose:jni
+#JVMARGS+=-verbose:class
+#JVMARGS+=-verbose:gc

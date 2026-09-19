@@ -1,0 +1,3 @@
+#include "resource.h"
+
+IDI_PANDORA_ICON ICON "assets\\pandoralogo.ico"

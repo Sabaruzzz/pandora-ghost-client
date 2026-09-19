@@ -1,0 +1,9 @@
+﻿  [*] Leyendo DLL...
+  [+] Exito: payload.h generado correctamente! TamaA±o: 4880384 bytes.
+  console.cpp
+  injector.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 643 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  pandorainjector.vcxproj -> D:\pandorinclient2\pandoracheat\pandoracheat\x64\Release\pandorainjector.exe

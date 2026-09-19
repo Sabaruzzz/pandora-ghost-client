@@ -1,0 +1,7 @@
+#include "resource.h"
+
+IDR_FONT_AWESOME_SOLID RCDATA "assets\\fonts\\fa-solid-900.ttf"
+IDR_FONT_INTER_SEMIBOLD RCDATA "assets\\fonts\\Inter-SemiBold.ttf"
+IDR_FONT_POPPINS_SEMIBOLD RCDATA "assets\\fonts\\Poppins-SemiBold.ttf"
+IDR_FONT_INTER_BOLD RCDATA "assets\\fonts\\Inter-Bold.ttf"
+

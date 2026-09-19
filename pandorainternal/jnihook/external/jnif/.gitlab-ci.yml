@@ -1,0 +1,28 @@
+image: alpine
+
+before_script:
+- apk update
+- apk add doxygen
+- apk add ttf-freefont graphviz
+
+pages:
+  script:
+  - doxygen
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+
+build:
+  before_script:
+  - apk update
+  - apk add gcc g++ make cmake
+  - apk add openjdk8
+  script:
+  - mkdir cmake-build-debug
+  - cd cmake-build-debug
+  - cmake ..
+  - make
+  only:
+  - master

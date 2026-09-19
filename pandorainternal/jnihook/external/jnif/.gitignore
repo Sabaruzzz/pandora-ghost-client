@@ -1,0 +1,6 @@
+/.idea/
+/target/
+/Cargo.lock
+build/
+src-instrserver/bin/
+src-instrserver/.project

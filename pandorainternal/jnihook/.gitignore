@@ -1,0 +1,8 @@
+*.class
+*.log
+*.so
+*.o
+build*/
+cmake-build*/
+.cache/
+.idea/
